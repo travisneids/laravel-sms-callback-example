@@ -8,6 +8,9 @@ Laravel instructions include this step: Docker allows you to easily run MySQL an
 
 Ngrok will allow Twilio to make requests back to your local machine: [https://ngrok.com/download](https://ngrok.com/download)
 
+## Install Migration Files
+`cd twilio-sms-laravel && sail php artisan migrate`
+
 ## Learning Laravel
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
